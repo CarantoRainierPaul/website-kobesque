@@ -1,0 +1,51 @@
+body {
+    font-family: Georgia, serif;
+    background-color: #27445D;
+    margin: 0;
+    padding: 0;
+    color: #3674B5;
+}
+
+/* Title Box */
+.title-box {
+    background-color: #3674B5;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    border: 2px;
+    border-color: aliceblue;
+}
+
+.title-box h1 {
+    margin: 0;
+    font-size: 2em;
+    
+}
+/* Section Headers */
+h2 {
+    color: whitesmoke;
+    margin-left: 180px;
+}
+
+/* Container for Sections */
+.container {
+    background: whitesmoke;
+    max-width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    border-left: 5px solid #ff5733; /* Orange Accent */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        max-width: 95%;
+    }
+
+    .title-box h1 {
+        font-size: 1.5em;
+    }
+}
